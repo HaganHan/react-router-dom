@@ -1,14 +1,23 @@
 {
-  "name": "react-router-dom",
+  "name": "02.current-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "consola": "^2.15.0",
+    "lodash": "^4.17.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-jsx": "^3.3.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -32,17 +41,27 @@
     ]
   },
   "devDependencies": {
+    "@types/prop-types": "^15.7.3",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.8",
+    "@types/styled-jsx": "^2.2.8",
+    "@types/webpack-env": "^1.15.2",
     "@typescript-eslint/eslint-plugin": "^3.10.0",
     "@typescript-eslint/parser": "^3.10.0",
     "customize-cra": "^1.0.0",
+    "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-link-slash-end": "^0.0.5",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-standard": "^4.0.1",
+    "node-sass": "^4.14.1",
     "react-app-rewired": "^2.1.6",
-    "styled-jsx": "^3.3.0",
+    "redux-devtools-extension": "^2.13.8",
+    "rollup": "^2.26.6",
     "typescript": "^4.0.2"
   }
 }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["public.scss"],"names":[],"mappings":"AACA,mBACE,SAAU","file":"main.f692a9c1.chunk.css","sourcesContent":["\n.nav__item--active {\n  color: red;\n}"]}

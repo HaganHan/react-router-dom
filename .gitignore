@@ -1,23 +1,50 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+########### NodeJs ###########
+node_modules
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+########### Mac ###########
+.DS_Store
+.Trashes
+
+########### Vim ###########
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+[._]*.un~
+
+########### VSCode ###########
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+########### WebStorm ###########
+.idea
+
+########### Egret ###########
+.wing
+bin-release
+bin-debug
+
+########### Linux ###########
+*~
+.Trash-*
+.nfs*
+
+########### Java ###########
+*.class
+
+########### project ###########
+*/design/psd
+*/database
+*/db
+
+########### Git ###########
+!.gitkeep

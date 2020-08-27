@@ -10,7 +10,8 @@ module.exports = {
     addBabelPlugin('styled-jsx/babel'),
     addWebpackAlias({
       '~src': path.resolve(__dirname, 'src'),
-      '~root': path.resolve(__dirname)
+      '~root': path.resolve(__dirname),
+      '~react-router-dom': path.resolve(__dirname, 'src/common/axios')
     })
   )
 }
