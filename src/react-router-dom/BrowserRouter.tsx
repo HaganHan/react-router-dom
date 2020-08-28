@@ -1,13 +1,19 @@
 import React from 'react'
-import history from 'history'
+import { createBrowserHistory } from 'history'
 
-import { Context } from '~src/react-router-dom/context'
-console.log(Context)
-const BrowserRouter = (): JSX.Element => {
+import { ContextBrowserRouter } from '~src/react-router-dom/context'
+
+interface Props {
+  children: JSX.Element | JSX.Element[];
+}
+
+const BrowserRouter = (props: Props): JSX.Element => {
+  const history = createBrowserHistory()
+  const { Provider } = ContextBrowserRouter
   return (
-    <article>
-      BrowserRouter
-    </article>
+    <Provider value={{ history }}>
+      { props.children }
+    </Provider>
   )
 }
 
