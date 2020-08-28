@@ -11,7 +11,7 @@ module.exports = {
     addWebpackAlias({
       '~src': path.resolve(__dirname, 'src'),
       '~root': path.resolve(__dirname),
-      '~react-router-dom': path.resolve(__dirname, 'src/common/axios')
+      '~router': path.resolve(__dirname, 'src/react-router-dom')
     })
   )
 }

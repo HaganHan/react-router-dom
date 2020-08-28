@@ -2,6 +2,7 @@
 {
   "pathAlias.aliasMap": {
     "~src": "${cwd}/src",
-    "@root": "${cwd}"
+    "~root": "${cwd}",
+    "~router": "${cwd}/src/react-router-dom",
   }
 }

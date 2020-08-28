@@ -58,6 +58,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "history": "^5.0.0",
     "node-sass": "^4.14.1",
     "react-app-rewired": "^2.1.6",
     "redux-devtools-extension": "^2.13.8",
