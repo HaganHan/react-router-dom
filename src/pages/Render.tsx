@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Page = (): JSX.Element => {
+const Render = (): JSX.Element => {
   return (
     <article>
-      People
+      Render
     </article>
   )
 }
 
-export default Page
+export default Render

@@ -1,4 +1,5 @@
 import { createContext } from 'react'
-import { BrowserHistory } from 'history'
 
-export const ContextBrowserRouter = createContext({ history: ({} as BrowserHistory) })
+import { ContextBrowserRouterInterface } from '~src/interface/common'
+
+export const ContextBrowserRouter = createContext({} as ContextBrowserRouterInterface)
