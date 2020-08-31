@@ -1,7 +1,8 @@
 {
-  "name": "02.current-redux",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@hagan/react-router-dom",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/bundle.min.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -24,7 +25,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "rollup": "rm -rf ./dist; rollup -c;"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +44,9 @@
     ]
   },
   "devDependencies": {
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^5.0.2",
     "@types/prop-types": "^15.7.3",
     "@types/react-dom": "^16.9.8",
     "@types/react-redux": "^7.1.9",
@@ -59,11 +64,14 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
     "history": "^5.0.0",
     "node-sass": "^4.14.1",
     "react-app-rewired": "^2.1.6",
     "redux-devtools-extension": "^2.13.8",
     "rollup": "^2.26.6",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "rollup-plugin-uglify": "^6.0.4",
     "typescript": "^4.0.2"
   }
 }
