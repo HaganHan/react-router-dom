@@ -45,6 +45,7 @@ bin-debug
 */design/psd
 */database
 */db
+dist/*
 
 ########### Git ###########
 !.gitkeep
