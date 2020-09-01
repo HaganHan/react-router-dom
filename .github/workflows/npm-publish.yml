@@ -21,8 +21,8 @@ jobs:
       - name: upload artifact file
         uses: actions/upload-artifact@v2
         with:
-          name: dist
-          path: dist
+          name: bundle
+          path: dist/
 
   deploy:
     needs: build
@@ -34,8 +34,8 @@ jobs:
       - name: download artifact file
         uses: actions/download-artifact@v2
         with:
-          name: dist
-          path: dist
+          name: bundle
+          path: dist/
 
       - name: config authentication # 为npm配置身份验证
         uses: actions/setup-node@v1
