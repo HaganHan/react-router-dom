@@ -35,6 +35,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: dist
+          path: dist
 
       - name: config authentication # 为npm配置身份验证
         uses: actions/setup-node@v1
