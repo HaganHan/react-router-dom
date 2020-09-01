@@ -42,6 +42,7 @@ jobs:
           git add .
           git commit -m "update package version"
           npm version patch
+          ls dist/
       - name: publish # 发布到npm
         run: npm publish --access=public
         env:

@@ -1197,6 +1197,29 @@
     redux-thunk "^2.3.0"
     styled-jsx "^3.3.0"
 
+"@hagan/react-router-dom@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@hagan/react-router-dom/-/react-router-dom-0.0.6.tgz#14a40085966ca6a41851778433716aee4e81a62c"
+  integrity sha512-dQB/Zi933TeKLhos2+nr0dJWmH9I2JtWxXZpUcHasobfwa8dCr0zMHViXb2kTkOuB2F/Mmq31mZQZIZwiZ0jDQ==
+  dependencies:
+    "@hagan/react-router-dom" "^0.0.5"
+    "@testing-library/jest-dom" "^4.2.4"
+    "@testing-library/react" "^9.3.2"
+    "@testing-library/user-event" "^7.1.2"
+    axios "^0.19.2"
+    consola "^2.15.0"
+    lodash "^4.17.19"
+    path-to-regexp "^6.1.0"
+    react "^16.13.1"
+    react-dom "^16.13.1"
+    react-redux "^7.2.1"
+    react-router-dom "^5.2.0"
+    react-scripts "3.4.1"
+    redux "^4.0.5"
+    redux-logger "^3.0.6"
+    redux-thunk "^2.3.0"
+    styled-jsx "^3.3.0"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
