@@ -1,7 +1,7 @@
 import React from 'react'
 
 import '~src/public.scss'
-import { NavLink, Route, BrowserRouter, Switch } from '~src/react-router-dom/index'
+import { NavLink, Route, BrowserRouter, Switch } from '~src/react-router-dom'
 import Component from '~src/pages/Component'
 import Render from '~src/pages/Render'
 import Children1 from '~src/pages/Children1'
