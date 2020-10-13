@@ -1198,6 +1198,29 @@
     redux-thunk "^2.3.0"
     styled-jsx "^3.3.0"
 
+"@hagan/react-router-dom@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@hagan/react-router-dom/-/react-router-dom-0.0.12.tgz#b0b1318f4471322eb3222ad36f7871769cb6cb0d"
+  integrity sha512-Y47DFephpT2JxGFvj9RGVM3nAq1I9y2rQ/lq2bZhrcNoFVIEV/SdSE+0IqHL1kOoyUwJLsBoqZE7IwpYZaiqyg==
+  dependencies:
+    "@hagan/react-router-dom" "^0.0.11"
+    "@testing-library/jest-dom" "^4.2.4"
+    "@testing-library/react" "^9.3.2"
+    "@testing-library/user-event" "^7.1.2"
+    axios "^0.19.2"
+    consola "^2.15.0"
+    lodash "^4.17.19"
+    path-to-regexp "^6.1.0"
+    react "^16.13.1"
+    react-dom "^16.13.1"
+    react-redux "^7.2.1"
+    react-router-dom "^5.2.0"
+    react-scripts "3.4.1"
+    redux "^4.0.5"
+    redux-logger "^3.0.6"
+    redux-thunk "^2.3.0"
+    styled-jsx "^3.3.0"
+
 "@hagan/react-router-dom@^0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@hagan/react-router-dom/-/react-router-dom-0.0.5.tgz#222701c55764c92d89f368ad72eaef3d0411c4b8"

@@ -3,11 +3,11 @@ import { BrowserHistory } from 'history'
 
 import { Key } from 'path-to-regexp'
 
-export interface BaseProps {
+declare interface BaseProps {
   children?: ReactNode
 }
 
-export interface Location {
+interface Location {
   pathname: string;
   search: string;
   hash: string;
@@ -15,26 +15,26 @@ export interface Location {
   key: string;
 }
 
-export interface Match {
+interface Match {
   path: string;
   url: string;
   params: any;
   isExact: boolean;
 }
 
-export interface ContextBrowserRouterInterface {
+interface ContextBrowserRouterInterface {
   history: BrowserHistory;
   location: Location;
   match: Match | null;
 }
 
-export interface MatchPathOption {
+interface MatchPathOption {
   path: string;
   exact?: boolean;
   strict?: boolean;
   sensitive?: boolean;
 }
 
-export interface MatchPathKey extends Key {
+interface MatchPathKey extends Key {
   [index: string]: string | number;
 }
